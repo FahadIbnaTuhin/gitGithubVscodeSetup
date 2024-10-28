@@ -1,0 +1,25 @@
+sudo apt update
+sudo apt install git
+git --version
+
+After installing Git, it's a good idea to set up your user information. This will be associated with your commits.
+
+1. **Set Your Username**:
+   git config --global user.name "Your Name"
+
+2. **Set Your Email**:
+   git config --global user.email "your.email@example.com"
+
+3. **Check Configuration**:
+   You can check your configuration settings by running:
+   git config --list
+
+If you ever need to update Git to the latest version, simply run:
+sudo apt update
+sudo apt upgrade git
+
+That’s it! You’ve successfully installed and configured Git on your Linux Mint system. If you have any further questions or need assistance with Git commands, feel free to ask!
+
+
+ssh-keygen -t ed25519 -C "fahadtuhin2@gmail.com"
+cat ~/.ssh/id_ed25519.pub

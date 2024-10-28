@@ -21,5 +21,5 @@ sudo apt upgrade git
 That’s it! You’ve successfully installed and configured Git on your Linux Mint system. If you have any further questions or need assistance with Git commands, feel free to ask!
 
 
-ssh-keygen -t ed25519 -C "fahadtuhin2@gmail.com"
+ssh-keygen -t ed25519 -C "user_email"
 cat ~/.ssh/id_ed25519.pub
